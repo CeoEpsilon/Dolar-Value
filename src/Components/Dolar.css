@@ -1,0 +1,31 @@
+.monedaTextStyle{
+    text-align: start;
+}
+.flagStyle{
+    height: 20px;
+    width: 40px;
+    align-content: flex-start;
+    border-radius: 2px;
+}
+
+.valorDolar{
+    text-align: start;
+    color: green;
+    padding-top: 22px !important;
+}
+
+Table{
+    margin-top: 60px;
+}
+#hora{
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+td{
+    padding-top: 25px !important;
+}
+
+th{
+    padding-top: 25px !important;
+}

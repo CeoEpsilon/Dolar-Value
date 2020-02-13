@@ -16,7 +16,7 @@ function Dolar() {
         }
     });
 
-     fecha(() =>{
+    function fecha(){
 
         let date = new Date(valor.timestamp * 1000);
         let year = date.getFullYear();
@@ -28,9 +28,9 @@ function Dolar() {
         } else {
             return `Fecha : ${day}/${month}/${year}`;
         };
-    });
+    };
             
-    getValor(() => {
+    function getValor() {
 
         fetch("http://api.currencylayer.com/live?access_key=5a155e26bba31e6a84bdd459167edf79")
             .then(response => {
@@ -41,7 +41,7 @@ function Dolar() {
             .then(json => {
                 setValor(json);
             })
-    });
+    };
 
     useEffect(() => {
         getValor();
@@ -69,25 +69,25 @@ function Dolar() {
                         <td classname="celdaBandera"><div><img className="bandera" src="../img/Argentina.jpg" alt="Argentina" /></div>Argentina</td>
                     </tr>
                     <tr>
-                        <th className="monedaTextStyle" scope="row">Peso Chileno</th>
+                        <th className="monedaCol" scope="row">Peso Chileno</th>
                         <td className="valorDolarCol">{valor.quotes.USDCLP}</td>
                         <td>CLP</td>
                         <td classname="celdaBandera"><div><img className="bandera" src="../img/chile.png" alt="chile" /></div>Chile</td>
                     </tr>
                     <tr>
-                        <th className="monedaTextStyle" scope="row">Peso Colombiano</th>
+                        <th className="monedaCol" scope="row">Peso Colombiano</th>
                         <td className="valorDolarCol">{valor.quotes.USDCOP}</td>
                         <td>COP</td>
                         <td classname="celdaBandera"><div><img className="bandera" src="../img/colombia.png" alt="colombia" /></div>Colombia</td>
                     </tr>
                     <tr>
-                        <th className="monedaTextStyle" scope="row">Peso Mexicano</th>
+                        <th className="monedaCol" scope="row">Peso Mexicano</th>
                         <td className="valorDolarCol">{valor.quotes.USDMXN}</td>
                         <td>MXN</td>
                         <td classname="celdaBandera"><div><img className="bandera" src="../img/Mexico.jpg" alt="Mexico" /></div>Mexico</td>
                     </tr>
                     <tr>
-                        <th className="monedaTextStyle" scope="row">Guaraní Paraguayo</th>
+                        <th className="monedaCol" scope="row">Guaraní Paraguayo</th>
                         <td className="valorDolarCol">{valor.quotes.USDPYG}</td>
                         <td>PYG</td>
                         <td classname="celdaBandera"><div><img className="bandera" src="../img/Paraguay.jpg" alt="Paraguay" /></div>Paraguay</td>

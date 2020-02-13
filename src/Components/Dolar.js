@@ -66,31 +66,31 @@ function Dolar() {
                         <th className="monedaCol" scope="row">Peso Argentino</th>
                         <td className="valorDolarCol">{valor.quotes.USDARS}</td>
                         <td>ARS</td>
-                        <td classname="celdaBandera"><div><img className="bandera" src="../img/Argentina.jpg" alt="Argentina" /></div>Argentina</td>
+                        <td className="celdaBandera"><div><img className="bandera" src="../img/Argentina.jpg" alt="Argentina" /></div>Argentina</td>
                     </tr>
                     <tr>
                         <th className="monedaCol" scope="row">Peso Chileno</th>
                         <td className="valorDolarCol">{valor.quotes.USDCLP}</td>
                         <td>CLP</td>
-                        <td classname="celdaBandera"><div><img className="bandera" src="../img/chile.png" alt="chile" /></div>Chile</td>
+                        <td className="celdaBandera"><div><img className="bandera" src="../img/chile.png" alt="chile" /></div>Chile</td>
                     </tr>
                     <tr>
                         <th className="monedaCol" scope="row">Peso Colombiano</th>
                         <td className="valorDolarCol">{valor.quotes.USDCOP}</td>
                         <td>COP</td>
-                        <td classname="celdaBandera"><div><img className="bandera" src="../img/colombia.png" alt="colombia" /></div>Colombia</td>
+                        <td className="celdaBandera"><div><img className="bandera" src="../img/colombia.png" alt="colombia" /></div>Colombia</td>
                     </tr>
                     <tr>
                         <th className="monedaCol" scope="row">Peso Mexicano</th>
                         <td className="valorDolarCol">{valor.quotes.USDMXN}</td>
                         <td>MXN</td>
-                        <td classname="celdaBandera"><div><img className="bandera" src="../img/Mexico.jpg" alt="Mexico" /></div>Mexico</td>
+                        <td className="celdaBandera"><div><img className="bandera" src="../img/Mexico.jpg" alt="Mexico" /></div>Mexico</td>
                     </tr>
                     <tr>
                         <th className="monedaCol" scope="row">Guaraní Paraguayo</th>
                         <td className="valorDolarCol">{valor.quotes.USDPYG}</td>
                         <td>PYG</td>
-                        <td classname="celdaBandera"><div><img className="bandera" src="../img/Paraguay.jpg" alt="Paraguay" /></div>Paraguay</td>
+                        <td className="celdaBandera"><div><img className="bandera" src="../img/Paraguay.jpg" alt="Paraguay" /></div>Paraguay</td>
                     </tr>
                 </tbody>
             </Table>

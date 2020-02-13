@@ -1,31 +1,37 @@
-.monedaTextStyle{
-    text-align: start;
-}
-.flagStyle{
-    height: 20px;
-    width: 40px;
-    align-content: flex-start;
-    border-radius: 2px;
-}
 
-.valorDolar{
-    text-align: start;
-    color: green;
-    padding-top: 22px !important;
+#fecha{
+    font-size: xx-large;
+    margin-top: 30px;
 }
 
 Table{
     margin-top: 60px;
 }
-#hora{
-    font-size: xx-large;
-    margin-top: 30px;
+
+th{
+    padding-top: 25px !important;
 }
 
 td{
     padding-top: 25px !important;
 }
 
-th{
-    padding-top: 25px !important;
+.monedaCol{
+    text-align: start;
 }
+
+.valorDolarCol{
+    text-align: start;
+    color: green;
+    padding-top: 22px !important;
+}
+
+.bandera{
+    height: 20px;
+    width: 40px;
+    align-content: flex-start;
+    border-radius: 2px;
+}
+
+
+
